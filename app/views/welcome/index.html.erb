@@ -1,0 +1,13 @@
+<h1><%= nome_aplicacao %></h1>
+<p>Arthur Ramos Vieira virando o rei do Rails</p>
+<p><strong>Data:</strong> <%= data_br(Date.today) %></p>
+
+<ul>
+    <li>
+        <a href="/coins">Cadastro de Moedas</a>
+    </li>
+
+    <li>
+        <%= link_to "Cadastro de Moedas", coins_path %>
+    </li>
+</ul>
